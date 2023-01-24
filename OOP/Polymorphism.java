@@ -44,6 +44,15 @@ class Circle extends Polygon {
   }
 }
 
+class Triangle extends Polygon {
+
+  // renders circle
+  public void render() {
+    super.render(); // Render the super render method
+    System.out.println("Rendering Triangle...");
+  }
+}
+
 class Main {
   public static void main(String[] args) {
     
@@ -54,5 +63,9 @@ class Main {
     // create an object of Circle
     Circle c1 = new Circle();
     c1.render();
+
+    // create an object of Circle
+    Triangle t1 = new Triangle();
+    t1.render();
   }
 }
