@@ -13,7 +13,7 @@ On Windows, open the Command Prompt (cmd).
 To compile the program, type the following command and hit **Enter**:
 
 ```bash
-javac "First Java Program.java
+javac "First Java Program.java"
 ```
 
 After compilation, the .java file gets translated into the .class file (bytecode).
